@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Tektur', cursive;
+    color: #fff;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.377);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 1%, rgba(229, 7, 7, 1) 50%, rgba(0, 0, 0, 1) 99%);
+}
+
+#conteiner,
+header,
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#conteiner {
+    width: 37.5rem;
+    height: 42rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 1) 1%, rgb(85, 85, 85) 50%, rgba(0, 0, 0, 1) 99%);
+    border-radius: 10px;
+}
+
+#firstNumber, #secondNumber{
+width:8rem ;
+height: 3rem;
+background-color: #575656;
+border-radius: 10px;
+border: 2px groove black ;
+margin-right: 2rem;
+padding: 0.5rem;
+font-size: 1.5rem;
+}
+
+.btn{
+    display: block;
+    width: 8rem;
+    height: 2.5rem;
+    background-color:#AEC346;
+    border: none;
+    border-radius: 10px;
+    margin: 2rem auto;
+    font-size: 18px;
+}
+

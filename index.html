@@ -1,13 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Sorteio</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;700&family=Playfair+Display:wght@400;800&family=Poppins:wght@300;500;800&family=Tektur:wght@400;500;800&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="./images/Maquinas-caca-niqueis-sao-um-dos-jogos-favoritos-20220501-removebg-preview.png">
 </head>
+
 <body>
-    <button id="btn">oi</button>
+    <div id="conteiner">
+
+        <header>
+            <img src="./images/GifsDado.gif" alt="imagem de dado">
+
+            <h1>DEV Sorteio</h1>
+        </header>
+
+        <main>
+            <h2>Escolha um numero</h2>
+
+            <section class="numbers">
+                <label for="firstNumber">DE:
+                    <input type="number" id="firstNumber">
+                </label>
+
+                <label for="secondNumber">Á:
+                    <input type="number" id="secondNumber">
+                </label>
+                <br>
+                <button class="btn" type="submit">SORTEAR</button>
+            </section>
+
+
+
+        </main>
+
+    </div>
 </body>
+
 <script src="./index.js"></script>
+
 </html>

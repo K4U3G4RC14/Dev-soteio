@@ -9,7 +9,8 @@
 
 body {
     background: rgba(0, 0, 0, 0.377);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 1%, rgba(229, 7, 7, 1) 50%, rgba(0, 0, 0, 1) 99%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 1%, rgba(229, 7, 7, 1) 50%, rgba(0, 0, 0, 1) 99%);
+    background-size: cover;
 }
 
 #conteiner,
@@ -27,29 +28,57 @@ main {
     height: 42rem;
     margin: 2rem auto;
     padding: 2rem;
-    background:linear-gradient(0deg, rgba(0, 0, 0, 1) 1%, rgb(85, 85, 85) 50%, rgba(0, 0, 0, 1) 99%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 1%, rgb(85, 85, 85) 50%, rgba(0, 0, 0, 1) 99%);
     border-radius: 10px;
 }
 
-#firstNumber, #secondNumber{
-width:8rem ;
-height: 3rem;
-background-color: #575656;
-border-radius: 10px;
-border: 2px groove black ;
-margin-right: 2rem;
-padding: 0.5rem;
-font-size: 1.5rem;
+h1 {
+    font-size: 3rem;
+    letter-spacing: 1rem;
 }
 
-.btn{
+h2{
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.25rem;
+    margin-top: 3rem;
+}
+
+label{
+font-size: 2rem;
+font-weight: 100;
+font-style: italic;
+}
+
+#firstNumber,
+#secondNumber {
+    width: 8rem;
+    height: 3rem;
+    background-color: #575656;
+    border-radius: 10px;
+    border: 2px groove black;
+    margin-right: 2rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.btn {
     display: block;
     width: 8rem;
     height: 2.5rem;
-    background-color:#AEC346;
+    background-color: #38bd26c4;
     border: none;
     border-radius: 10px;
     margin: 2rem auto;
     font-size: 18px;
+    box-shadow: 0px 5px 5px #75a36f;
+    cursor: pointer;
+    transition: all 0.5s;
 }
 
+.btn:hover{
+    transform: scale(20px, 20px);
+    background-color: #5aa850;
+    box-shadow: 0px 0px 20px 10px #9dd496;
+    transform: scale(1.25);
+}
